@@ -1,12 +1,32 @@
-body{
+.dark{
     background-color: white;
-    background-color: rgb(2, 2, 66);
+    background-color: rgb(2, 2, 31);
     color: rgb(11, 170, 233);
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+body{
+    background-color: white;
+    color: rgb(11, 170, 233);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+        background-color: white;
+        color: rgb(11, 170, 233);
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .div {
@@ -16,8 +36,23 @@ img{
     width: 80px;
 }
 
-tr {
+button{
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    padding: 20px;
+    color:  rgb(11, 170, 233);
+    border: solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tr {
     background-color: rgb(2, 2, 66);
+}
+
+.tr-light{
+    background-color: white;
 }
 table{
     background-color: rgb(11, 170, 233);
