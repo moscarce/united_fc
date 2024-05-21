@@ -1,7 +1,7 @@
 .dark{
-    background-color: white;
+    background-color: rgb(231, 227, 227);
     background-color: rgb(2, 2, 31);
-    color: rgb(11, 170, 233);
+    color: rgb(5, 128, 177);
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,8 @@
 }
 
 body{
-    background-color: white;
-    color: rgb(11, 170, 233);
+    background-color: rgb(231, 227, 227);
+    color: rgb(5, 128, 177);
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,8 @@ body{
 }
 
 .light{
-        background-color: white;
-        color: rgb(11, 170, 233);
+        background-color: rgb(231, 227, 227);
+        color: rgb(5, 128, 177);
         padding: 20px 30px;
         display: flex;
         flex-direction: column;
@@ -41,7 +41,7 @@ button{
     right: 30px;
     bottom: 10px;
     padding: 20px;
-    color:  rgb(11, 170, 233);
+    color:  rgb(5, 128, 177);
     border: solid;
     font-weight: bold;
     cursor: pointer;
@@ -52,8 +52,8 @@ button{
 }
 
 .tr-light{
-    background-color: white;
+    background-color: rgb(231, 227, 227);
 }
 table{
-    background-color: rgb(11, 170, 233);
+    background-color: rgb(5, 128, 177);
 }

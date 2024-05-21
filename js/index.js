@@ -14,7 +14,7 @@ button.addEventListener('click',()=>{
     } else {
         button.innerText = 'Dark mode';
         body.setAttribute('class','light');
-        button.style.backgroundColor = 'white';
+        button.style.backgroundColor = 'rgb(231, 227, 227)';
         for (const element of table) {
             element.setAttribute('class','tr-light')
         }
